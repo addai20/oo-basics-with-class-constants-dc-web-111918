@@ -4,9 +4,9 @@ class Shoe
 
   BRANDS = []
   
-  # def initialize(brand)
-  #   @brand = brand
-  # end
+  def initialize(brand)
+    @brand = brand
+  end
 
   def cobble
     self.condition = "new"
@@ -17,5 +17,4 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-
 end
